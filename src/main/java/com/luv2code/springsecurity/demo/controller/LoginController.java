@@ -13,4 +13,10 @@ public class LoginController {
 		
 		return ViewNames.BOOTSTRAP_LOGIN;
 	}
+	
+	@GetMapping("/access-denied")
+	public String showAccessDenied() {
+		
+		return ViewNames.ACCESS_DENIED;
+	}
 }

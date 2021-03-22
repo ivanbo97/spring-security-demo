@@ -10,6 +10,8 @@ public final class ViewNames {
 	
 	public static final String ADMINS = "admins";
 	
+	public static final String ACCESS_DENIED = "access-denied";
+	
 	private ViewNames() {
 		
 		
